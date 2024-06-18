@@ -27,7 +27,7 @@
     padding-left: 0px;
 }
     body {
-    background-color: #DDD0C8;
+    background-color: #e9e9e7;
 }
     .footer p{
             background: #24262b;

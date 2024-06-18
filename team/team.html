@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\deep patel\Desktop\team\team.css">
+    <style>
+        
+
+* {
+    font-family: Nunito, sans-serif;
+}
+
+.responsive-cell-block {
+    min-height: 75px;
+}
+
+.text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+
+.team-head-text {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.team-head-text {
+    line-height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.container {
+    max-width: 1380px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+.card {
+    text-align: center;
+    background-color: #C0C0C0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+   
+}
+.card {
+    
+
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 4px solid black;
+        background-color: lightgrey;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+    }
+
+    &:hover:before {
+        transform: scale(2.15);
+    }
+}
+
+
+
+.card-container {
+    width: 280px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.name {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.position {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.feature-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    color: black
+    line-height: 30px;
+}
+
+.social-icons {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.card .social-icons{
+    margin-right: 58px;
+}
+
+.team-image-wrapper {
+    clip-path: circle(50% at 50% 50%);
+    width: 150px;
+    height: 150px;
+}
+
+.team-member-image {
+    max-width: 100%;
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .card-container {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+    }
+}
+
+
+    </style>
+    
+</head>
+<body background=
+"pexels-fotoaibe-1571469.jpg"  style="background-repeat: no-repeat; background-attachment: fixed; 
+             background-size: 100% 100%;" >
+    
+
+
+<div class="responsive-container-block container">
+    <p class="text-blk team-head-text">
+        Meet Our Interiors
+    </p>
+
+    <div class="team">
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card" >
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-06-15 at 8.33.36 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Tirth Mewada
+                </p>
+                <p class="text-blk position">
+                    Team Leader
+                </p>
+                <p class="text-blk feature-text">
+                    Full-stack Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/tirth_mewada?t=_PSq_n9kTBW8ul3K89_Oag&s=08" target="_blank">
+                        <img class="twitter-icon"
+                            src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/tirth._.mewada?igsh=eWZqemNmc2VuM2No" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/tirth-mewada-2a1790236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/tirthmewada" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="responsive-container-block">
+        
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-24 at 8.51.50 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Yash Patel
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Full-stack Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/YashPatel191723?t=-YN5mHhOV6bKr-JLJGHhsA&s=08" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/its__yash2910?igsh=dWQ3c21sYXFuank0" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/yash-patel-17b654301" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/YashPatel2910" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-24 at 8.43.36 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Preksha Soni
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Full-stack Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/preksha_soni13?t=hWdbEQzfPXfGTtJ2J_mmgA&s=09" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/prekshasoni_13?igsh=cHQyNmsyZ3c4dWdu" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/preksha-soni-39910b306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/prekshasoni13" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="IMG-20240212-WA0138.jpg">
+                </div>
+                <p class="text-blk name">
+                    Deep Patel
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Full-stack Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/DeepPat70958514" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/typically_deep106/?next=https%3A%2F%2Fwww.instagram.com%2Freels%2FCzTvNFHvLpI%2F%3F__coig_login%3D1" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/deep-patel-8b1342248/" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/Deeppatel1064" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-23 at 9.35.52 PM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Yashvi Thakar
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Frontend Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/pihu96821432723?t=ir6cUqJRG9LhcN_vq0NAbg&s=08" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/yashvi028_?igsh=aWt2dWk1cm1iNzQ2" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/yashvi-thakar-b9153a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/yashvithakar" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-23 at 6.35.55 PM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Kevil Patel
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Backend Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-24 at 8.41.11 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Khushi Kalal
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Frontend Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-24 at 8.39.32 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Yashvi Patel
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Frontend Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://x.com/PatelYashvi27" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com/yashvi_2707?igsh=eXBnanRkMHQxOWlu&utm_source=qr" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/patel-yashvi-561965286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://github.com/yashviii27" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+            <div class="card">
+                <div class="team-image-wrapper">
+                    <img class="team-member-image"
+                        src="WhatsApp Image 2024-05-24 at 8.39.20 AM.jpeg">
+                </div>
+                <p class="text-blk name">
+                    Priya Soni
+                </p>
+                <p class="text-blk position">
+                    Team Member
+                </p>
+                <p class="text-blk feature-text">
+                    Backend Developer
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img class="twitter-icon" src="twitter.svg" width="20px" height="20px">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="instagram-icon" src="instagram.svg" width="20px" height="20px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="linkedin-icon" src="linkedin (1).svg" width="15px" height="20px">
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <img class="github-icon" src="github.svg" width="20px" height="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <a href="../index.html" class="btn btn-block" style="background-color: peru; text-decoration:none; color:white; border-radius:10px; padding:20px 20px;">Back to Home</a>
+</div>
+
+
+</body>
+</html>

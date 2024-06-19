@@ -43,19 +43,19 @@
     padding: 1.25rem; */
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp:3;
+    -webkit-line-clamp:2;
     overflow: hidden;
     width: auto;
-    height: 150px;
+    height: 100px;
 }
 
 h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h4, h5, h6{
   display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp:3;
+    -webkit-line-clamp:2;
     overflow: hidden;
     width: auto;
-    height: 100px;
+    height: 56px;
 
 }
     * {
